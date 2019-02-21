@@ -1,0 +1,78 @@
+body {
+    background: #26415a;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container-col .logo {
+    min-width: 10px;
+    width: 154px;
+    height: 40px;
+    background: url(sprite-index.svg) no-repeat;
+    background-size: 415%;
+    background-position: 45.8% 76.6%;
+    text-indent: -9999px;
+    overflow: hidden;
+    z-index: 9;
+    float: left;
+}
+
+.container .logo {
+    min-width: 283px;
+    min-height: 283px;
+    background: url(sprite-index.svg) no-repeat;
+    background-size: 290%;
+    background-position: 89.7% 110.6%;
+}
+
+.container a {
+    color: rgb(255, 255, 255);
+    font-family: uni_sans_semiboldregular, Arial, Helvetica, sans-serif;
+    font-size: 52px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.container-col {
+    flex-direction: column;
+}
+
+.container-col .btngo {
+    color: #fff;
+    position: relative;
+    padding: 15px 15px;
+    margin-right: 8px;
+    text-transform: uppercase;
+    font: 16px/20px 'uni_sans_semiboldregular',Arial,Helvetica,sans-serif;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    cursor: pointer;
+    background: transparent;
+    font-size: 15px;
+    text-decoration: none;
+    line-height: 22px;
+}
+
+.btngo:hover {
+    text-decoration: none;
+    color: #FFF;
+    border-color: #00bdca;
+    background: #00bdca;
+}
